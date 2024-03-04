@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+    max-height: 10vh;
+}
+.nowrap{
+    white-space: nowrap;   
+    color: whitesmoke;
+    text-shadow: 10px 10px 10px;
+   
+}
+img{
+    display: block;
+}
+.picture{
+    width: 30%;
+}
+.picture img{
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    min-width: 100px;/*this allows the imege not to shrink not more than 100px*/
+    border: 5px double darkred ;
+
+}
+.container{
+    background-color: bisque;
+    background-image: url('/html/pics/pexels-rajesh-tp-1624487.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    
+    
+}
+.sector{
+
+    border-bottom: 3px solid black;
+    padding: 10px;
+     
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.473)   
+}    
+h1{
+    font-size: 500%;
+   /*  background-color: hsla(0, 0%, 0%, 0.281);
+    border-radius: 20px ; */
+   
+}
+
+.away{
+    display: none;
+}
+
+.lulu{
+    font-size: 300px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image:linear-gradient(to top, red, orange,yellow,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

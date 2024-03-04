@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript</title>
+  </head>
+  <body onload="displayGreetings();">
+    <header>
+      <hgroup style="background-color: papayawhip">
+        <h2>JavaScript Basics</h2>
+        <p>learn more about javascript here</p>
+      </hgroup>
+    </header>
+    <main>
+      <button onclick="checktodaysDate();" value="click here">click me!!!</button>
+      <br>
+      <script type="text/javascript">
+
+        
+        //function that displays welcome page when the page is loaded
+
+        function displayGreetings() {
+          alert("Welcome to my website");
+        }
+
+
+        // giving an output
+        document.write("hello world" + "</br>");
+        //summations
+        var num1 = 5;
+        var num2 = 27;
+        var result = num1 + num2;
+        document.write("the result of the summation is " + result + "<br/>");
+
+        // assingning names and age
+        let firstname = "frankline";
+        let lastname = "omari";
+        let age = 20;
+        document.write("your name is " + firstname +" "+ lastname + "<br/>");
+        document.write("you are the age of " + age + "<br/>");
+
+        //Achieng making a purchase
+        var potatoes_per_kg = 80;
+        var onions_per_kg = 160;
+        var cash_given = 1000;
+
+        var total_price = potatoes_per_kg * 2 + onions_per_kg * 4;
+        var balance = cash_given - total_price;
+
+        document.write("The total price is " + total_price + "</br>");
+        document.write("The balance given to Achieng is " + balance);
+        document.write("</br>");
+
+        //Deterining the age of a person and voting eligibility
+        var age_2 = prompt("Enter Age");
+        parseInt(age_2);
+        if (age_2 >= 18) {
+          alert("You can vote");
+        } else {
+          alert("Sorry you cannot vote yet");
+        }
+
+        //grade a student
+        var CAT = prompt("Enter CAT marks");
+        var EXAM = prompt("Enter EXAM marks");
+        var total = parseInt(CAT) + parseInt(EXAM);
+
+        if (total >= 70 && total <= 100) {
+          var grade = "A";
+        } else if (total >= 60 && total <= 70) {
+          var grade = "B";
+        } else if (total >= 50 && total <= 60) {
+          var grade = "C";
+
+        } else if (total >= 40 && total <= 50) {
+          var grade = "D";
+        } else if (total >= 0 && total <= 40) {
+          var grade = "FAIL";
+        } else {
+          grade = "Out of range";
+        }
+        document.write("Your Grade Is " + grade);
+
+        //Assingning counties their names
+
+
+        //displays today's date three times when a button is clicked
+
+        
+        function checktodaysDate(){
+
+          for(counter=0; counter<3; counter++){
+            const todays_Date= new Date();
+            document.write("Todays date is " +todays_Date +"<br/>")
+          }
+        } 
+
+        
+
+      </script>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

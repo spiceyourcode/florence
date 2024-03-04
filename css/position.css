@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:'Lora', serif;
+    background-color: #fae3ba;
+    
+}
+
+header{
+    text-align: center;
+    padding: 2rem;
+    background-color: #2f2f2f;
+    color:#ffcb74;
+    font-weight: bolder;
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+ 
+
+}
+section{
+    height: 100vh;   
+    
+}
+
+p{
+    text-indent: 2rem;
+    text-align: justify;
+    background-color: #f0e2ca;
+    width: 90%;
+    line-height: 2rem;
+    font-family:  sans-serif;
+    margin-top: 30px;
+    margin-left: 2rem;
+}
+.clear{
+    clear: both;
+}
+html{scroll-behavior: smooth;}
+
+aside{
+
+
+    position: fixed;
+    top: 300px;
+}
+
+
+footer{
+    background-color: rgb(68, 64, 64);
+    padding: 1rem;
+    position: fixed;
+    top: 94vh;
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: auto;
+    width: auto;
+    background-color: rgb(60, 71, 71);
+    border-radius: 50px ;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    margin-inline: 2rem;
+}
+.float{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(2, 56%, 61%);
+    text-align: center;
+    padding: 30px;
+    
+    
+    
+    margin: 30px 300px 0px 10px;
+    
+}
+a:hover{
+    color: aliceblue;
+}
+a:active{
+    pointer-events: stroke;
+}

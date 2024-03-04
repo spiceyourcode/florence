@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: red;
+	font-family:calibri
+	border: 24px solid green;
+}
+.nany{
+ color: aquamarine;
+ background-color: rgb(245, 111, 234);
+ box-sizing: border-box;
+ text-decoration: none;
+ margin-top: -15px;
+ text-align: right;
+
+
+}
+li{
+    list-style:none inside;
+    display: inline-block;
+    margin-inline: 20px;
+    
+    padding:2%;
+    
+}
+
+.maina{
+    background-color: rgb(170, 137, 197);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-weight: 200;
+}
+.mia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: brown;
+
+}
+#vinni{
+    color: grey;
+}

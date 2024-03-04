@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?famil italic 4emy=Gluten:wght@600&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: papayawhip;
+
+}
+.box{
+    min-height: 170px;
+    min-width: 170px;
+    color: white;
+    border:2px solid black;
+    box-shadow:3px 3px 1px 1px  rgb(44, 21, 21);
+
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+   
+}
+
+aside{
+    display: grid;
+    place-items: center;
+    gap: 40px 10px;
+
+}
+.a{
+    background-color: blue;     
+    font: italic 4em 'Gluten', cursive;
+
+    transform: translate(-100% ,40%);
+
+}
+
+.b{
+    background-color: tomato;
+    font: italic 4em 'Gluten', cursive ;
+    transform: rotate(45deg) scale(80%,80%) translate(-70px,150px);
+    transition: width 0.5s 3s, height 0.5s 3s, background-color 2s ;
+    transition-timing-function:ease-in-out ;
+
+    
+   
+}
+.c{
+    background-color: yellow;
+    font: italic 4em 'Gluten', cursive;
+    color: purple;
+    transform: scale(50%,50%);
+}
+.a:hover{
+    background-color: rgb(212, 218, 255);
+    transition-property:background-color;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+
+}
+.b:hover{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(58, 199, 209);
+    transform: rotate(20);
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    
+
+
+}

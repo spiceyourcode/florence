@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-size: 1.5rem;
+    background-image: radial-gradient(white ,gray);
+    min-height: 100vh;
+            
+    display: flex;
+    flex-direction: column;
+     
+    
+}
+header, nav, main,footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+header ,footer{
+    position: sticky;
+    background-color: darkslategray;
+    color: azure;
+}
+header{
+    display: sticky;
+    top: 0;
+
+}
+footer{
+    display:sticky;
+    bottom: 0;
+
+}
+main{
+flex-grow: 1;
+}
+nav{
+    background-color: antiquewhite ;
+    border-bottom: 2px solid black;
+}
+/* ||SMALL */
+@media screen and (min-width:576px){
+   main{
+    background-color: green;
+    background-image: radial-gradient(white,lightgreen);
+    
+   }
+   nav{
+    display: none;
+   }
+}
+/*||||||||||| BIG SCREEN ||||||||||||*/
+@media screen and (min-width:992px){
+    main{
+        background-color: lightskyblue;
+        background-image: radial-gradient(white,rgb(94, 24, 39));
+        
+       }
+       nav{
+        display: none;
+       }
+     header,footer{
+        color: aqua;
+     }  
+}
+/*|||||||| GENERAL STYLES|||||||| */
+@media screen and (min-width:1200px){
+    header,footer{
+        display: flex;
+        justify-items: flex-start;
+
+    } 
+
+    main{
+        background-image:radial-gradient(white,gray);
+      
+        color: dimgray;
+        background-color: bisque;
+    }
+    
+}

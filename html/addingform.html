@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/add.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <fieldset>
+        <legend>Addition form</legend>
+        <form action="">
+          <label for="value_1">First Value:</label>
+          <input type="text" id="value_1" />
+          <br />
+          <label for="value_2">Second Value: </label>
+
+          <input type="text" id="value_2" required="required" />
+          <br />
+
+          <button onclick="addNumbers()" class="btn-53">
+            <div class="original">+</div>
+            <div class="letters">
+              <span>A</span>
+              <span>D</span>
+              <span>D</span>
+            </div>
+          </button>
+
+          <br />
+        </form>
+      </fieldset>
+
+      <script type="text/javascript">
+        function addNumbers() {
+          var num1 = document.getElementById("value_1").value;
+          var num2 = document.getElementById("value_2").value;
+
+          if (isNaN(num1) || isNaN(num2)) {
+            alert("Please enter a valid number");
+          } else {
+            var sum = parseInt(num1) + parseInt(num2);
+            alert(sum);
+          }
+        }
+      </script>
+    </main>
+    <footer></footer>
+  </body>
+</html>

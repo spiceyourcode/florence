@@ -1,0 +1,40 @@
+
+nav{
+  
+    text-align: right;
+   
+    
+
+}
+ul{
+    list-style: none inside;
+   padding: 0%;
+   
+    margin: 0;
+    
+}
+
+li{
+    display:inline-block;
+    margin-inline:20px;
+    padding: 10px;
+    
+    
+
+        
+}
+li:hover{
+    background-color: blue;
+    color: yellow;
+
+}
+.me{
+    color: rgb(5, 32, 32);
+    background-color: goldenrod;
+    line-height: 2;
+    width: 75%;
+ 
+    padding:55px;
+    margin-top:2rem;
+}
+
